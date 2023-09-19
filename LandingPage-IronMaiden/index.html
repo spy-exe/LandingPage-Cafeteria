@@ -33,14 +33,17 @@
                     O nome "Iron Maiden", homônimo de um instrumento de tortura medieval que
                     aparece no filme O Homem da Máscara de Ferro, baseado na obra de Alexandre Dumas,
                     foi escolhido por ser assustador.</p>
-                    <button id="btn-ler-mais" href="#biografia">Ler Mais</button>
+                    <form id="btn-ler-mais" action="#biografia">
+                        <input type="submit" value="Ler Mais" />
+                    </form>
+                    <!-- <button  href="">Ler Mais</button> -->
                 </div>
                 
             </section>
         </div>
 
-        <div class="biografia-content">
-            <section id="biografia">
+        <div class="biografia-content" id="biografia">
+            <section>
                 
                 <div class="biografia-container">
                     <img src="img/biografia.jpg" alt="Foto da banda">
@@ -55,8 +58,8 @@
                 </div>
             </section>
         </div>
-        <div class="discografia-content">
-            <section id="discografia">
+        <div class="discografia-content" id="discografia">
+            <section style="display: flex;">
                     <div class="discografia-container" id="senjutsu">
                         <div class="music-player">
                             <img src="img/senjutsu.jpg" alt="Capa do Álbum">

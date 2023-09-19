@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 ::-webkit-scrollbar{
     width: 0.4rem;
@@ -26,7 +27,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
 }
 
@@ -35,14 +36,11 @@ header{
     width: 100%;
     height: 10vh;
     background: linear-gradient(to left, rgb(10, 0, 0), rgb(30, 0, 0));
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    position: relative;
     overflow: hidden;
 }
 #logo{
-    margin-top: 2%;
-    margin-left: 100%;
     width: 100%;
     height: 100%;
     cursor: pointer;
@@ -53,18 +51,13 @@ header{
     transform: scale(1.05);
     transition: 0.35s;
 }
-.nav-bar{
-    justify-content: space-around;
-    align-items: center;
-}
 .nav-bar ul{
     display: flex;
-    justify-content: space-around;
+
     list-style: none;
-    margin-right: 50%;
 }
 .nav-bar li{
-    padding-right: 10%;
+    margin-left: 8%;
 }
 .nav-bar li a{
     font-size: 80%;
@@ -162,7 +155,7 @@ main{
     transition: 0.5s;
     height: 30vh;
     #btn-ler-mais{
-        font-family: Raleway, sans-serif;
+        font-family: Poppins, sans-serif;
         text-transform: uppercase;
         font-size: 50%;
         letter-spacing: 0.15rem;
@@ -174,6 +167,22 @@ main{
         margin-right: 5%;
         width: 50%;
         height: 6vh;
+        border: none;
+        background-color: transparent;
+        border-radius: 10rem;
+        color: white;
+        transition: 1s;
+        cursor: pointer;
+        transition: 0.35s;
+    }
+    #btn-ler-mais input{
+        font-family: Poppins, sans-serif;
+        text-transform: uppercase;
+        font-size: 100%;
+        letter-spacing: 0.15rem;
+        font-weight: 600;
+        width: 100%;
+        height: 6vh;
         border: solid 1px white;
         background-color: transparent;
         border-radius: 10rem;
@@ -182,7 +191,7 @@ main{
         cursor: pointer;
         transition: 0.35s;
     }
-    #btn-ler-mais:hover{
+    #btn-ler-mais input:hover{
         background-color: white;
         color: black;
         transition: 0.35s;
@@ -239,9 +248,7 @@ main{
     width: 100%;
     background: linear-gradient(to bottom,rgba(30,0,0,0.95), rgba(10,0,0,0.95)), url("img/background.jpg");
 }
-#discografia{
-    display: flex;
-}
+
 .discografia-container{
     margin-top: 10%;
     width: 22.5%;
@@ -278,7 +285,7 @@ main{
     border-radius: 5rem;
     background-color: transparent;
     color: white;
-    font-family: Raleway, sans-serif;
+    font-family: Poppins, sans-serif;
     padding: 5%;
     width: 100%;
     height: 100%;
@@ -299,7 +306,7 @@ main{
     margin-bottom: 3%;
 }
 .play-btn{
-    font-family: Raleway, sans-serif;
+    font-family: Poppins, sans-serif;
     border: solid 1px white;
     border-radius: 5rem;
     background-color: transparent;
