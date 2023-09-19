@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iron Maiden</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -38,7 +39,6 @@
             </section>
         </div>
 
-        <h1 class="biografia-title">Biografia</h1>
         <div class="biografia-content">
             <section id="biografia">
                 
@@ -57,8 +57,64 @@
         </div>
         <div class="discografia-content">
             <section id="discografia">
-                <h1>Discografia</h1>
+                    <div class="discografia-container" id="senjutsu">
+                        <div class="music-player">
+                            <img src="img/senjutsu.jpg" alt="Capa do Álbum">
+                            <div class="music-info">
+                                <h2>Senjutsu</h2>
+                                <h3>Data de lançamento</h3>
+                                <div class="music-btn-div">
+                                    <button>2021</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                
+                    <div class="discografia-container" id="fear_of_the_dark">
+                        <div class="music-player">
+                            <img src="img/fear_of_the_dark.jpg" alt="Capa do Álbum">
+                            <div class="music-info">
+                                <h2>Fear Of The Dark</h2>
+                                <h3>Data de lançamento</h3>
+                                <div class="music-btn-div">
+                                    <button>1992</button>
+                                </div>
+                                
+                            </div>
+                            <audio id="myAudio" src="sound/fear_of_the_dark.mp3"></audio>
+                            <button class="play-btn" id="playPauseButton">Reproduzir</button>
+                        </div>
+                    </div>
 
+                    <div class="discografia-container" id="powerslave">
+                        <div class="music-player">
+                            <img src="img/powerslave.jpg" alt="Capa do Álbum">
+                            <div class="music-info">
+                                <h2>Powerslave</h2>
+                                <h3>Data de lançamento</h3>
+                                <div class="music-btn-div">
+                                    <button>1994</button>
+                                </div>
+                            </div>
+                            <!-- <audio id="myAudio" src="sound/powerslave.mp3" type="audio/mpeg"></audio>
+                            <button class="play-btn" id="powerslaveBtn">Reproduzir</button> -->
+                        </div>
+                    </div>
+
+                    <div class="discografia-container" id="piece_of_mind">
+                        <div class="music-player">
+                            <img src="img/piece_of_mind.jpg" alt="Capa do Álbum">
+                            <div class="music-info">
+                                <h2>Piece Of Mind</h2>
+                                <h3>Data de lançamento</h3>
+                                <div class="music-btn-div">
+                                    <button>1983</button>
+                                </div>
+                            </div>
+                            <!-- <audio id="myAudio" src="sound/piece_of_mind.mp3" type="audio/mpeg"></audio>
+                            <button class="play-btn" id="pieceBtn">Reproduzir</button> -->
+                        </div>
+                    </div>
             </section>
         </div>
 
@@ -97,5 +153,7 @@
             </ul>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

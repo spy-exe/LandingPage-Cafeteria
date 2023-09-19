@@ -29,12 +29,6 @@ body{
     font-family: 'Raleway', sans-serif;
     color: #fff;
 }
-main{
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
 
 header{
     display: flex;
@@ -197,7 +191,7 @@ main{
 
 .biografia-content{
     background-color: black;
-    background: linear-gradient(to right, rgba(20, 0, 0, 0.95), rgba(20, 0, 0, 0.95)), url("img/background.jpg");
+    background: linear-gradient(to right, rgba(20, 0, 0, 0.95), rgba(20, 0, 0, 0.95)), url("img/biografia.jpg");
     background-position: center center;
     background-position-y: 0px;
     background-size: cover;
@@ -215,13 +209,18 @@ main{
     margin-left: 10%;
     background-color: rgba(10, 0, 0, 0.2);
     border-radius: 2rem 1rem 1rem 2rem;
-    
+    transition: 1s;
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.4);
 }
-.biografia-title{
-    
+.biografia-container:hover{
+    background-color: rgba(10, 0, 0, 0.4);
+    transform: scale(1.1);
+    transition: 0.35s;
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.8);
 }
+
 .biografia-container img{
-    width: 25%;
+    width: 36%;
     height: 25%;
     border-radius: 2rem 0 0 2rem;
     object-fit: cover;
@@ -233,6 +232,108 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.discografia-content{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(30,0,0,0.95), rgba(10,0,0,0.95)), url("img/background.jpg");
+}
+#discografia{
+    display: flex;
+}
+.discografia-container{
+    margin-top: 10%;
+    width: 22.5%;
+    border-radius: 2rem;
+    padding: 2%;
+    margin-left: 2%;
+}
+.music-info{
+    margin-left: 1%;
+    margin-top: 5%;
+}
+.music-info h2{
+    font-size: 120%;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+.music-info h3{
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+.music-btn-div
+{
+    width: 25%;
+    margin-top: 2%;
+    height: 2.5vh;
+    background-color: rgba(0, 0, 0, 0);
+}
+.music-info button{
+    border: solid 2px rgba(255, 255, 255, 0.1);
+    border-radius: 5rem;
+    background-color: transparent;
+    color: white;
+    font-family: Raleway, sans-serif;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    font-size: 60%;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.music-player{
+    padding: 20px;
+}
+.music-player img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    filter: brightness(0.9);
+    margin-bottom: 3%;
+}
+.play-btn{
+    font-family: Raleway, sans-serif;
+    border: solid 1px white;
+    border-radius: 5rem;
+    background-color: transparent;
+    color: white;
+    
+    padding: 5%;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+    font-size: 80%;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.play-btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.35s;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.425);
+}
+
+
+
+#senjutsu{
+    background: linear-gradient(45deg,rgb(19, 1, 1), rgba(66, 0, 0, 0.2));
+}
+#fear_of_the_dark{
+    background: linear-gradient(45deg,rgb(3, 3, 29), rgba(5,0,0,0.2));
+}
+#powerslave{
+    background: linear-gradient(45deg,rgb(34, 21, 2), rgba(10,10,0,0.2));
+}
+#piece_of_mind{
+    background: linear-gradient(45deg,rgb(41, 38, 2), rgba(0,0,0,0.2));
 }
 
 
