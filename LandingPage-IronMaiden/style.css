@@ -406,6 +406,6 @@ footer a:hover{
 
 @media screen and (max-width: 856px) {
     #logo {
-        display: none; /* Oculta o elemento em telas menores que 768px de largura */
+        display: none;
     }
 }
