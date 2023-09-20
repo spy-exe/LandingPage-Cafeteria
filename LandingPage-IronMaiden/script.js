@@ -11,4 +11,4 @@ playPauseButton.addEventListener("click", function () {
     playPauseButton.innerHTML = "Reproduzir";
     playPauseButton.classList.remove("paused");
   }
-});
+})
